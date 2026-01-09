@@ -1,6 +1,6 @@
 # Orion IoT Board Firmware 🌌
 
-![PlatformIO](https://img.shields.io/badge/PlatformIO-Build-orange)
+#![PlatformIO](https://img.shields.io/badge/PlatformIO-Build-orange)
 ![ESP32](https://img.shields.io/badge/Device-ESP32-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -60,3 +60,4 @@ Editar `wifi_defaults.h` para establecer la red de respaldo:
 ```cpp
 #define DEFAULT_SSID "Tu_Red_WiFi"
 #define DEFAULT_PASS "Tu_Password"
+
