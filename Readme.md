@@ -47,7 +47,7 @@ El sistema corre sobre un ESP32 (DevKit V1) con la siguiente distribución de pi
 
 ### Esquematico
 <p align="center">
-  <img src="/docs/Schematic_IoT_Orion.pdf" alt="PCB Orion IoT" style="width: 48%;"/>
+  <img src="/docs/Schematic_IoT_Orion.png" alt="PCB Orion IoT" style="width: 48%;"/>
 </p>
 
 ## 📦 Librerías Requeridas
@@ -143,6 +143,7 @@ para visualizar los datos históricos.
 Este proyecto está bajo la **Licencia MIT** – ver el archivo `LICENSE` para más detalles.
 
 Desarrollado por **Jesús Gonzalez Becerril** – Proyecto **Orion IoT**
+
 
 
 
