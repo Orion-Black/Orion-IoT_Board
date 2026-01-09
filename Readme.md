@@ -6,7 +6,6 @@
 **Orion IoT** es un sistema integral de monitoreo y control basado en **ESP32**. Este firmware gestiona una placa de desarrollo personalizada capaz de operar en múltiples modos (Local, Cloud, Test y Configuración), integrando una interfaz física OLED, control por servidor local, y conectividad avanzada con Home Assistant e InfluxDB.
 
 <div style="display: flex; justify-content: center; gap: 16px; margin-top: 16px;">
-  <img src="PCB_view.svg" alt="PCB Orion IoT - Vista" style="width: 48%;"/>
   <img src="Orion_PCB_View.png" alt="PCB Orion IoT" style="width: 48%;"/>
 </div>
 
@@ -68,6 +67,7 @@ Editar `wifi_defaults.h` para establecer la red de respaldo:
 ```cpp
 #define DEFAULT_SSID "Tu_Red_WiFi"
 #define DEFAULT_PASS "Tu_Password"
+
 
 
 
