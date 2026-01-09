@@ -45,6 +45,11 @@ El sistema corre sobre un ESP32 (DevKit V1) con la siguiente distribución de pi
 | **Extensiones I2C** | Añadir perifericos | GPIO 21 (SDA), 22 (SCL) | I2C |
 | **Debug Serial** | Debug UART | 1 (TX0), 3 (RX0), GND| UART |
 
+### Esquematico
+<p align="center">
+  <img src="Orion_PCB_View.png" alt="PCB Orion IoT" style="width: 48%;"/>
+</p>
+
 ## 📦 Librerías Requeridas
 
 Este proyecto utiliza las siguientes dependencias. Asegúrate de instalarlas en el Gestor de Librerías de Arduino:
@@ -138,5 +143,6 @@ para visualizar los datos históricos.
 Este proyecto está bajo la **Licencia MIT** – ver el archivo `LICENSE` para más detalles.
 
 Desarrollado por **Jesús Gonzalez Becerril** – Proyecto **Orion IoT**
+
 
 
