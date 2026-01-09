@@ -42,6 +42,8 @@ El sistema corre sobre un ESP32 (DevKit V1) con la siguiente distribución de pi
 | **GPS** | Geolocalización | GPIO 16 (RX), 17 (TX) | UART2 |
 | **Potenciómetro** | Navegación UI | GPIO 35 | Entrada Analógica |
 | **Botones UI** | Control | 32 (OK), 33 (DEL), 25 (SEND)| Input Pullup |
+| **Extensiones I2C** | Añadir perifericos | GPIO 21 (SDA), 22 (SCL) | I2C |
+| **Debug Serial** | Debug UART | 1 (TX0), 3 (RX0)| UART |
 
 ## 📦 Librerías Requeridas
 
@@ -136,3 +138,4 @@ para visualizar los datos históricos.
 Este proyecto está bajo la **Licencia MIT** – ver el archivo `LICENSE` para más detalles.
 
 Desarrollado por **Jesús Gonzalez Becerril** – Proyecto **Orion IoT**
+
