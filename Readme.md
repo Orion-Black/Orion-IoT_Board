@@ -66,6 +66,91 @@ Editar `wifi_defaults.h` para establecer la red de respaldo:
 ```cpp
 #define DEFAULT_SSID "Tu_Red_WiFi"
 #define DEFAULT_PASS "Tu_Password"
+```
+
+## 2. Cloud & MQTT
+
+Editar `cloud_mode.cpp` con los datos de tu servidor (Azure VM, Raspberry Pi, etc.):
+
+```cpp
+// MQTT (Home Assistant)
+const char* mqtt_server = "TU_IP_PUBLICA";
+const char* mqtt_user   = "tu_usuario";
+const char* mqtt_pass   = "tu_password";
+
+// InfluxDB
+#define INFLUXDB_URL    "http://TU_DOMINIO:8086"
+#define INFLUXDB_TOKEN  "tu-token-admin"
+#define INFLUXDB_ORG    "tu-org"
+#define INFLUXDB_BUCKET "sensores"
+```
+
+⚠️ **Nota de Seguridad:**  
+Se recomienda mover estas definiciones a un archivo `credentials.h` y añadirlo al `.gitignore` para no exponer claves en repositorios públicos.
+
+---
+
+## 📖 Manual de Uso
+
+### Navegación
+
+- Gira el **Potenciómetro** para mover el cursor `-->`.
+- Presiona **Confirmar (GPIO 32)** para entrar o seleccionar.
+- Presiona **Borrar (GPIO 33)** para volver atrás o salir de un modo.
+
+---
+
+### Comandos Modo Local (WebSerial)
+
+Accede a:
+
+```
+http://orion-iot.local/webserial
+```
+
+Y usa comandos como:
+
+```
+relay set 1 on        # Encender Relé 1
+lock open             # Abrir cerradura por 3 segundos
+sensor all            # Leer todos los sensores
+sys info              # Ver estado del sistema
+```
+
+---
+
+## 📊 Integración Cloud
+
+El dispositivo publica en los siguientes tópicos MQTT para Home Assistant:
+
+- **Configuración:**  
+  `homeassistant/+/orion/+/config`
+
+- **Estado:**  
+  `orion/sensors/state`  
+  `orion/gps/state`
+
+- **Comandos:**  
+  `orion/relayX/set`  
+  `orion/lock/set`
+
+En **InfluxDB**, busca el measurement:
+
+```
+estado_sistema
+```
+
+para visualizar los datos históricos.
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la **Licencia MIT** – ver el archivo `LICENSE` para más detalles.
+
+Desarrollado por **Jesús Gonzalez Becerril** – Proyecto **Orion IoT**
+
+
 
 
 
