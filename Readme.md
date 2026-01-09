@@ -41,7 +41,7 @@ El sistema corre sobre un ESP32 (DevKit V1) con la siguiente distribución de pi
 
 ## 📦 Librerías Requeridas
 
-Este proyecto utiliza las siguientes dependencias. Asegúrate de instalarlas en `platformio.ini` o el Gestor de Librerías de Arduino:
+Este proyecto utiliza las siguientes dependencias. Asegúrate de instalarlas en el Gestor de Librerías de Arduino:
 
 - `Adafruit GFX Library` & `Adafruit SSD1306`
 - `ESPAsyncWebServer` & `AsyncTCP`
@@ -62,6 +62,7 @@ Editar `wifi_defaults.h` para establecer la red de respaldo:
 ```cpp
 #define DEFAULT_SSID "Tu_Red_WiFi"
 #define DEFAULT_PASS "Tu_Password"
+
 
 
 
