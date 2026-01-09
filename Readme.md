@@ -17,8 +17,8 @@
 - **🏠 Modo Local:** Servidor Web interno con **WebSerial**. Permite enviar comandos de texto para controlar relés y leer sensores sin internet vía `orion-iot.local/webserial` dentro de la misma red. 
 - **☁️ Modo Cloud (Azure IoT):**
   - **Home Assistant:** Integración nativa vía **MQTT Discovery**. Los dispositivos aparecen automáticamente sin configuración YAML. (Puerto 8123)
-  - **InfluxDB & Grafana:** Envío directo de telemetría a base de datos de series temporales para historicos y permite la creación de visualizaciones en dashboard a traves de grafana. Puerto 8086 y 3000 respectivamente.
-  - **Node-Red:** Permite crear rutinas de automatizaciones inteligentes. Puerto 1880.
+  - **InfluxDB & Grafana:** Envío directo de telemetría a base de datos de series temporales para historicos y permite la creación de visualizaciones en dashboard a traves de grafana. (Puerto 8086 y 3000 respectivamente)
+  - **Node-Red:** Permite crear rutinas de automatizaciones inteligentes. (Puerto 1880)
 - **🛠️ Modo Test:** Suite de diagnóstico integrada para verificar relés, servos, GPS y sensores antes del despliegue con pruebas automaticas. 
 
 El modo cloud esta alojado en `http://orion-iot.canadacentral.cloudapp.azure.com:<PUERTO>`
@@ -62,6 +62,7 @@ Editar `wifi_defaults.h` para establecer la red de respaldo:
 ```cpp
 #define DEFAULT_SSID "Tu_Red_WiFi"
 #define DEFAULT_PASS "Tu_Password"
+
 
 
 
