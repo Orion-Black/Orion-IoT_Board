@@ -6,7 +6,7 @@
 **Orion IoT** es un sistema integral de monitoreo y control basado en **ESP32**. Este firmware gestiona una placa de desarrollo personalizada capaz de operar en múltiples modos (Local, Cloud, Test y Configuración), integrando una interfaz física OLED, control por servidor local, y conectividad avanzada con Home Assistant e InfluxDB.
 
 <p align="center">
-  <img src="Orion_PCB_View.png" alt="PCB Diagrama" style="width: 80%;"/>
+  <img src="Orion_PCB_View.png" alt="PCB Orion IoT" style="width: 48%;"/>
 </p>
 
 ## 🚀 Características Principales
@@ -47,7 +47,7 @@ El sistema corre sobre un ESP32 (DevKit V1) con la siguiente distribución de pi
 
 ### Esquematico
 <p align="center">
-  <img src="/docs/Schematic_IoT_Orion.png" alt="PCB Orion IoT" style="width: 48%;"/>
+  <img src="/docs/Schematic_IoT_Orion.png" alt="PCB Diagramas" style="width: 80%;"/>
 </p>
 
 ## 📦 Librerías Requeridas
@@ -143,6 +143,7 @@ para visualizar los datos históricos.
 Este proyecto está bajo la **Licencia MIT** – ver el archivo `LICENSE` para más detalles.
 
 Desarrollado por **Jesús Gonzalez Becerril** – Proyecto **Orion IoT**
+
 
 
 
