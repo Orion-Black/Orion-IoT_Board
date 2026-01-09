@@ -84,37 +84,26 @@ const char* mqtt_pass   = "tu_password";
 #define INFLUXDB_ORG    "tu-org"
 #define INFLUXDB_BUCKET "sensores"
 ```
-
-⚠️ **Nota de Seguridad:**  
-Se recomienda mover estas definiciones a un archivo `credentials.h` y añadirlo al `.gitignore` para no exponer claves en repositorios públicos.
-
 ---
-
 ## 📖 Manual de Uso
-
 ### Navegación
-
 - Gira el **Potenciómetro** para mover el cursor `-->`.
 - Presiona **Confirmar (GPIO 32)** para entrar o seleccionar.
 - Presiona **Borrar (GPIO 33)** para volver atrás o salir de un modo.
-
 ---
-
 ### Comandos Modo Local (WebSerial)
-
 Accede a:
-
 ```
 http://orion-iot.local/webserial
 ```
-
 Y usa comandos como:
-
 ```
+help                  # Muestra una lista de comandos disponibles
 relay set 1 on        # Encender Relé 1
 lock open             # Abrir cerradura por 3 segundos
 sensor all            # Leer todos los sensores
 sys info              # Ver estado del sistema
+sys reset             # Reinicia el dispositivo IoT
 ```
 
 ---
@@ -131,17 +120,15 @@ El dispositivo publica en los siguientes tópicos MQTT para Home Assistant:
   `orion/gps/state`
 
 - **Comandos:**  
-  `orion/relayX/set`  
+  `orion/relay1/set`  
   `orion/lock/set`
 
 En **InfluxDB**, busca el measurement:
-
 ```
 estado_sistema
+_field
 ```
-
 para visualizar los datos históricos.
-
 ---
 
 ## 📄 Licencia
@@ -149,16 +136,3 @@ para visualizar los datos históricos.
 Este proyecto está bajo la **Licencia MIT** – ver el archivo `LICENSE` para más detalles.
 
 Desarrollado por **Jesús Gonzalez Becerril** – Proyecto **Orion IoT**
-
-
-
-
-
-
-
-
-
-
-
-
-
