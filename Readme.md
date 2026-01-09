@@ -3,7 +3,7 @@
 ![ESP32](https://img.shields.io/badge/Device-ESP32-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-**Orion IoT** es un sistema integral de monitoreo y control basado en **ESP32**. Este firmware gestiona una placa de desarrollo personalizada capaz de operar en múltiples modos (Local, Cloud, Test y Configuración), integrando una interfaz física OLED, control por voz/texto local, y conectividad avanzada con Home Assistant e InfluxDB.
+**Orion IoT** es un sistema integral de monitoreo y control basado en **ESP32**. Este firmware gestiona una placa de desarrollo personalizada capaz de operar en múltiples modos (Local, Cloud, Test y Configuración), integrando una interfaz física OLED, control por servidor local, y conectividad avanzada con Home Assistant e InfluxDB.
 
 ## 🚀 Características Principales
 
@@ -59,5 +59,6 @@ Editar `wifi_defaults.h` para establecer la red de respaldo:
 ```cpp
 #define DEFAULT_SSID "Tu_Red_WiFi"
 #define DEFAULT_PASS "Tu_Password"
+
 
 
