@@ -19,7 +19,7 @@ A continuación se muestran las diferentes etapas de configuración y operación
     <td align="center"><img src="/demo_imgs/view_configuration.jpg" width="400px" alt="Estado de Red"/><br/><b>Estado de Red:</b> Verificación de conexión WiFi y dirección IP asignada.</td>
   </tr>
   <tr>
-    <td align="center"><img src="/demo_imgs/view_password" width="400px" alt="Configuración WiFi"/><br/><b>Configuración:</b> Interfaz para el ingreso de credenciales de red (SSID/PASS).</td>
+    <td align="center"><img src="/demo_imgs/view_password.jpg" width="400px" alt="Configuración WiFi"/><br/><b>Configuración:</b> Interfaz para el ingreso de credenciales de red (SSID/PASS).</td>
     <td align="center"><img src="/demo_imgs/view_test.jpg" width="400px" alt="Modo Test"/><br/><b>Modo Test:</b> Menú de diagnóstico para actuadores (Relés, Servos) y sensores.</td>
   </tr>
   <tr>
@@ -173,6 +173,7 @@ para visualizar los datos históricos.
 Este proyecto está bajo la **Licencia MIT** – ver el archivo `LICENSE` para más detalles.
 
 Desarrollado por **Jesús Gonzalez Becerril** – Proyecto **Orion IoT**
+
 
 
 
