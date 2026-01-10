@@ -51,9 +51,14 @@ El sistema corre sobre un ESP32 (DevKit V1) con la siguiente distribución de pi
 </p>
 
 ### Archivos Gerber de PCB Orion IoT v1.0
+
+<p align="left">
+  <img src="open-source-harware-logo.png" alt="Open Hardware" style="width: 25%;"/>
 Este proyecto es open hardware y puede ser reutilizado, con su debidos creditos.
 La placa esta diseñada en easyEDA y se adjunta el archivo **Gerber** para su fabricación.
-Buscalo en la carpeta */GERBERS*
+Buscalo en la carpeta */GERBER*
+</p>
+
 
 ## 📦 Librerías Requeridas
 
@@ -148,6 +153,7 @@ para visualizar los datos históricos.
 Este proyecto está bajo la **Licencia MIT** – ver el archivo `LICENSE` para más detalles.
 
 Desarrollado por **Jesús Gonzalez Becerril** – Proyecto **Orion IoT**
+
 
 
 
