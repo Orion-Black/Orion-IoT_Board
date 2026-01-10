@@ -107,32 +107,6 @@ Los materiales necesarios para la placa son:
 | 4 | Relay 5 V RAS-0510 |
 | 1 | Display OLED SSD1306 |
 
-
-- 1 x ESP32 devkit V1 (30 pines)
-- 1 x GPS Neo-6M
-- 1 x Modulo DHT11 (3 pines)
-- 1 x tira header hembra
-- 1 x tira header macho
-- 1 x potenciometro 10K
-- 5 x optoacoplador PC817
-- 4 x transistor de uso general 2N2222A
-- 1 x transistor TIP122
-- 5 x diodos 1N4148
-- 4 Borneras de conexión KF301-3P
-- 3 x boton pulsador (2 pines)
-- 1 x jack usb C de 6 pines
-- 5 x led SMD 1206 color rojo
-- 5 x resistor SMD 1206 de 100 ohms
-- 2 x resistor SMD 1206 de 5.1KOhms
-- 5 x resistor 56 ohms
-- 5 x resistor 220 ohms
-- 1 x fotoresistencia LDR
-- 1 x resistor 10K
-- 4 x relay 5v RAS-0510
-- 1 x display oled SSD1306
-
-
-
 ## 📦 Librerías Requeridas
 
 Este proyecto utiliza las siguientes dependencias. Asegúrate de instalarlas en el Gestor de Librerías de Arduino:
@@ -225,6 +199,7 @@ _field
 Este proyecto está bajo la **Licencia MIT** – ver el archivo `LICENSE` para más detalles.
 
 Desarrollado por **Jesús Gonzalez Becerril** – Proyecto **Orion IoT**
+
 
 
 
