@@ -80,9 +80,9 @@ La placa esta diseñada en easyEDA y se adjunta el archivo **Gerber** para su fa
 Buscalo en la carpeta */GERBER*
 
 Los materiales necesarios para la placa son:
-- ESP32 devkit V1 (30 pines)
-- GPS Neo-6M
-- Modulo DHT11 (3 pines)
+- 1 x ESP32 devkit V1 (30 pines)
+- 1 x GPS Neo-6M
+- 1 x Modulo DHT11 (3 pines)
 - 1 x tira header hembra
 - 1 x tira header macho
 - 1 x potenciometro 10K
@@ -197,6 +197,7 @@ _field
 Este proyecto está bajo la **Licencia MIT** – ver el archivo `LICENSE` para más detalles.
 
 Desarrollado por **Jesús Gonzalez Becerril** – Proyecto **Orion IoT**
+
 
 
 
