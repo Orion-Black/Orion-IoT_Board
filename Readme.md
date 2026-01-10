@@ -92,6 +92,16 @@ Los materiales necesarios para la placa son:
 - 5 x diodos 1N4148
 - 4 Borneras de conexión KF301-3P
 - 3 x boton pulsador (2 pines)
+- 1 x jack usb C de 6 pines
+- 5 x led SMD 1206 color rojo
+- 5 x resistor SMD 1206 de 100 ohms
+- 2 x resistor SMD 1206 de 5.1KOhms
+- 5 x resistor 56 ohms
+- 5 x resistor 220 ohms
+- 1 x fotoresistencia LDR
+- 1 x resistor 10K
+- 4 x relay 5v RAS-0510
+- 1 x display oled SSD1306
 
 
 
@@ -187,6 +197,7 @@ _field
 Este proyecto está bajo la **Licencia MIT** – ver el archivo `LICENSE` para más detalles.
 
 Desarrollado por **Jesús Gonzalez Becerril** – Proyecto **Orion IoT**
+
 
 
 
