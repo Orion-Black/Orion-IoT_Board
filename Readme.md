@@ -9,6 +9,25 @@
   <img src="Orion_PCB_View.png" alt="PCB Orion IoT" style="width: 48%;"/>
 </p>
 
+## 📱 Interfaz de Usuario y Funcionamiento
+
+A continuación se muestran las diferentes etapas de configuración y operación del sistema **ORION IoT v1.0** a través de su pantalla OLED integrada.
+
+<table>
+  <tr>
+    <td align="center"><img src="1000133261.jpg" width="400px" alt="Menú Principal"/><br/><b>Menú Principal:</b> Selección de modo (Local, Cloud, Test o Configuración).</td>
+    <td align="center"><img src="1000133266.jpg" width="400px" alt="Estado de Red"/><br/><b>Estado de Red:</b> Verificación de conexión WiFi y dirección IP asignada.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="1000133267.jpg" width="400px" alt="Configuración WiFi"/><br/><b>Configuración:</b> Interfaz para el ingreso de credenciales de red (SSID/PASS).</td>
+    <td align="center"><img src="1000133265.jpg" width="400px" alt="Modo Test"/><br/><b>Modo Test:</b> Menú de diagnóstico para actuadores (Relés, Servos) y sensores.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="1000133263.jpg" width="400px" alt="Modo Cloud"/><br/><b>Modo Cloud:</b> Transmisión activa de datos vía MQTT e InfluxDB con estado de GPS.</td>
+    <td align="center"><img src="1000133262.jpg" width="400px" alt="Modo Local"/><br/><b>Modo Local:</b> Servidor web activo para control mediante red local.</td>
+  </tr>
+</table>
+
 ## 🚀 Características Principales
 
 ### 1. Interfaz de Usuario Física (HMI)
@@ -154,6 +173,7 @@ para visualizar los datos históricos.
 Este proyecto está bajo la **Licencia MIT** – ver el archivo `LICENSE` para más detalles.
 
 Desarrollado por **Jesús Gonzalez Becerril** – Proyecto **Orion IoT**
+
 
 
 
