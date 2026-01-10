@@ -165,7 +165,6 @@ En **InfluxDB**, busca el measurement:
 estado_sistema
 _field
 ```
-para visualizar los datos históricos.
 ---
 
 ## 📄 Licencia
@@ -173,6 +172,7 @@ para visualizar los datos históricos.
 Este proyecto está bajo la **Licencia MIT** – ver el archivo `LICENSE` para más detalles.
 
 Desarrollado por **Jesús Gonzalez Becerril** – Proyecto **Orion IoT**
+
 
 
 
