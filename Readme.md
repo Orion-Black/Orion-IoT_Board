@@ -69,7 +69,7 @@ El sistema corre sobre un ESP32 (DevKit V1) con la siguiente distribución de pi
   <img src="/docs/Schematic_IoT_Orion.png" alt="PCB Diagramas" style="width: 80%;"/>
 </p>
 
-### Archivos Gerber de PCB Orion IoT v1.0
+### Archivos Gerber y materiales de PCB Orion IoT v1.0
 
 <p align="left">
   <img src="open-source-harware-logo.png" alt="Open Hardware" style="width: 10%;"/>
@@ -78,6 +78,21 @@ El sistema corre sobre un ESP32 (DevKit V1) con la siguiente distribución de pi
 Este proyecto es open hardware y puede ser reutilizado, con su debidos creditos.
 La placa esta diseñada en easyEDA y se adjunta el archivo **Gerber** para su fabricación.
 Buscalo en la carpeta */GERBER*
+
+Los materiales necesarios para la placa son:
+- ESP32 devkit V1 (30 pines)
+- GPS Neo-6M
+- Modulo DHT11 (3 pines)
+- 1 x tira header hembra
+- 1 x tira header macho
+- 1 x potenciometro 10K
+- 5 x optoacoplador PC817
+- 4 x transistor de uso general 2N2222A
+- 1 x transistor TIP122
+- 5 x diodos 1N4148
+- 4 Borneras de conexión KF301-3P
+- 3 x boton pulsador (2 pines)
+
 
 
 ## 📦 Librerías Requeridas
@@ -172,6 +187,7 @@ _field
 Este proyecto está bajo la **Licencia MIT** – ver el archivo `LICENSE` para más detalles.
 
 Desarrollado por **Jesús Gonzalez Becerril** – Proyecto **Orion IoT**
+
 
 
 
